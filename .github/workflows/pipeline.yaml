@@ -73,5 +73,5 @@ jobs:
         run: |
           aws cloudformation deploy \
           --template-file test3.yml \
-          --stack-name demo-stack \
+          --stack-name demo-stack2 \
         #  --s3-bucket pipline-test-bucket \
